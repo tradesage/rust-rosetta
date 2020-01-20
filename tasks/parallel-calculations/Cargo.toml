@@ -1,0 +1,10 @@
+[package]
+name = "parallel-calculations"
+version = "0.1.0"
+
+[package.metadata.rosettacode]
+url = "http://rosettacode.org/wiki/Parallel_calculations"
+
+[dependencies]
+rayon = "1"
+prime-decomposition = { path = "../prime-decomposition" }

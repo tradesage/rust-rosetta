@@ -1,0 +1,9 @@
+[package]
+name = "remove-lines-from-a-file"
+version = "0.1.0"
+
+[package.metadata.rosettacode]
+url = "http://rosettacode.org/wiki/Remove_lines_from_a_file"
+
+[dependencies]
+structopt = "0.2"

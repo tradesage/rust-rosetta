@@ -1,0 +1,10 @@
+[package]
+name = "vampire-number"
+version = "0.1.0"
+authors = ["nyradr <nyradr@protonmail.com>"]
+edition = "2018"
+
+[package.metadata.rosettacode]
+url = "https://rosettacode.org/wiki/Vampire_number"
+
+[dependencies]

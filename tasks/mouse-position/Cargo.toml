@@ -1,0 +1,12 @@
+[package]
+name = "mouse-position"
+version = "0.1.0"
+
+[package.metadata.rosettacode]
+url = "http://rosettacode.org/wiki/Mouse_position"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3.7", features = ["impl-default", "winuser"] }
+
+[target.'cfg(target_os="linux")'.dependencies]
+x11 = { version = "2.6.0", features = ["xlib"], optional = true }

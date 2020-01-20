@@ -1,0 +1,10 @@
+[package]
+name = "md5"
+version = "0.1.1"
+edition = "2018"
+
+[package.metadata.rosettacode]
+url = "http://rosettacode.org/wiki/MD5"
+
+[dependencies]
+md-5 = "0.8.0"

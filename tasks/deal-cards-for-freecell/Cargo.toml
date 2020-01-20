@@ -1,0 +1,10 @@
+[package]
+name = "deal-cards-for-free-cell"
+version = "0.1.0"
+
+[package.metadata.rosettacode]
+url = "http://rosettacode.org/wiki/Deal_cards_for_FreeCell"
+
+[dependencies]
+linear-congruential-generator = { path = "../linear-congruential-generator" }
+rand = "0.7.2"
